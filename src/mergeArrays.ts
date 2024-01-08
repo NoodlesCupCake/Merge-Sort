@@ -1,4 +1,4 @@
-export function merge(collection_1: number[], collection_2: number[]): number[] {
+function merge(collection_1: number[], collection_2: number[]): number[] {
     let result: number[] = [];
     let i = 0;
     let j = 0;
@@ -26,3 +26,4 @@ export function merge(collection_1: number[], collection_2: number[]): number[] 
     return result;
   }
   
+  export default merge;

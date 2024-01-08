@@ -1,4 +1,4 @@
-import { merge } from './mergeArrays';
+import merge from './mergeArrays';
 
 describe('merge function', () => {
   it('merges two sorted arrays', () => {
