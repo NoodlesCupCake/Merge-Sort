@@ -1,5 +1,3 @@
-// src/mergeArrays.ts
-
 export function merge(collection_1: number[], collection_2: number[]): number[] {
     let result: number[] = [];
     let i = 0;
@@ -14,8 +12,7 @@ export function merge(collection_1: number[], collection_2: number[]): number[] 
         j++;
       }
     }
-  
-    // Append the remaining elements, if any
+
     while (i < collection_1.length) {
       result.push(collection_1[i]);
       i++;
