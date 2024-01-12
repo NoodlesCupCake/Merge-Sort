@@ -6,7 +6,11 @@ To execute code and unit tests, please follow these simple steps:
     git clone https://github.com/NoodlesCupCake/Merge-sort.git
   ```
   2. Open a new terminal
-  3. Use the following command to run the unit tests
+  3. Afterward, use the following command to install the node packages
+  ```
+    npm install
+  ```
+  4. Then, use the following command to run the unit tests
   ```
     npm test
   ```
